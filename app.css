@@ -46,3 +46,26 @@ nav ul {
     list-style-type: none;
     display: flex;
 }
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.grille > div {
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grille .image {
+    height: 100%;
+}
+
+.grille .image img{
+    height: 100%;
+    object-fit: cover;
+}
