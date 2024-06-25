@@ -51,7 +51,7 @@ nav ul {
     background-image: url('./assets/landscape_comp.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 20rem;
     border-radius: 1rem;
     padding: 2rem;
     display: flex;
@@ -67,18 +67,29 @@ nav ul {
 }
 
 .grille > div {
-    border: 1px solid white;
+    border: 1px solid hotpink;
     padding: 2rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.grille > div:hover{
+ background-color: hotpink;
+ color: black;
 }
 
 .grille .image {
+    margin-top: 1rem;
     height: 100%;
+    width: 100%;
 }
 
 .grille .image img{
     height: 100%;
+    max-height: 35rem;
     object-fit: cover;
+    width: 100%;
 }
