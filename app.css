@@ -47,10 +47,23 @@ nav ul {
     display: flex;
 }
 
+.introduction {
+    background-image: url('./assets/landscape_comp.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
 .grille {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .grille > div {
