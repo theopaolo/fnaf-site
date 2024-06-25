@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'GeneralSans-Variable';
+    src: url('./assets/GeneralSans_Complete/GeneralSans-Variable.woff2') format('woff2'),
+         url('./assets/GeneralSans_Complete/GeneralSans-Variable.woff') format('woff'),
+         url('./assets/GeneralSans_Complete/GeneralSans-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+  }
+
+html {
+    font-family: 'GeneralSans-Variable', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+    max-width: 90dvw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
